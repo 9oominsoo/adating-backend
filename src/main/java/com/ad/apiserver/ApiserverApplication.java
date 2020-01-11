@@ -8,9 +8,6 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
-@Configuration
-@EnableAutoConfiguration(
-        exclude = {DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
 public class ApiserverApplication {
 
     public static void main(String[] args) {
